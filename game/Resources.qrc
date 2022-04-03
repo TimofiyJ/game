@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>C:/Users/1/Desktop/pics/pngwing.com (1).png</file>
+        <file>C:/Users/1/Desktop/pics/background.png</file>
+        <file>C:/Users/1/Desktop/pics/rocketdead.png</file>
+        <file>C:/Users/1/Desktop/pics/pngwing.com (3).png</file>
+        <file>C:/Users/1/Desktop/pics/tankdead.png</file>
+        <file>C:/Users/1/Desktop/pics/rocketshoot.png</file>
+        <file>C:/Users/1/Desktop/pics/white.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>play</class>
+ <widget class="QDialog" name="play">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1111</width>
+    <height>681</height>
+   </rect>
+  </property>
+  <property name="cursor">
+   <cursorShape>CrossCursor</cursorShape>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/new/prefix1/C:/Users/1/Desktop/pics/background.png);</string>
+  </property>
+  <widget class="QPushButton" name="Rocket1">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>120</y>
+     <width>211</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>211</width>
+     <height>131</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(0,0, 0, 0);
+image: url(:/new/prefix1/C:/Users/1/Desktop/pics/pngwing.com (1).png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Rocket0">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>20</y>
+     <width>171</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>CrossCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(0, 0, 0, 0);
+image: url(:/new/prefix1/C:/Users/1/Desktop/pics/pngwing.com (1).png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="DestroyedRocket0">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>550</y>
+     <width>201</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/new/prefix1/C:/Users/1/Desktop/pics/rocketdead.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="DestroyedRocket1">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>540</y>
+     <width>201</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>CrossCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/new/prefix1/C:/Users/1/Desktop/pics/rocketdead.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="DestroyedRocket2">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>540</y>
+     <width>201</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/new/prefix1/C:/Users/1/Desktop/pics/rocketdead.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="DestroyedRocket3">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>540</y>
+     <width>201</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/new/prefix1/C:/Users/1/Desktop/pics/rocketdead.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="DestroyedRocket4">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>530</y>
+     <width>201</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/new/prefix1/C:/Users/1/Desktop/pics/rocketdead.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="DestroyedRocket5">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>530</y>
+     <width>201</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/new/prefix1/C:/Users/1/Desktop/pics/rocketdead.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>640</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Coins:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Tank2">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>210</y>
+     <width>131</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>131</width>
+     <height>121</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/new/prefix1/C:/Users/1/Desktop/pics/pngwing.com (3).png);
+background-color: rgba(0,0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Tank3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>40</y>
+     <width>121</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/new/prefix1/C:/Users/1/Desktop/pics/pngwing.com (3).png);
+background-color: rgba(0,0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Tank0">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>320</y>
+     <width>191</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>191</width>
+     <height>171</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(0,0, 0, 0);
+image: url(:/new/prefix1/C:/Users/1/Desktop/pics/pngwing.com (3).png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Tank1">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>490</y>
+     <width>211</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>211</width>
+     <height>131</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(0,0, 0, 0);
+image: url(:/new/prefix1/C:/Users/1/Desktop/pics/pngwing.com (3).png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="DestroyedTank2">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>530</y>
+     <width>201</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/new/prefix1/C:/Users/1/Desktop/pics/tankdead.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="DestroyedTank4">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>520</y>
+     <width>201</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/new/prefix1/C:/Users/1/Desktop/pics/tankdead.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="DestroyedTank3">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>520</y>
+     <width>201</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/new/prefix1/C:/Users/1/Desktop/pics/tankdead.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="DestroyedTank5">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>520</y>
+     <width>201</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/new/prefix1/C:/Users/1/Desktop/pics/tankdead.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="DestroyedTank0">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>530</y>
+     <width>201</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+image: url(:/new/prefix1/C:/Users/1/Desktop/pics/tankdead.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="DestroyedTank1">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>530</y>
+     <width>201</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/new/prefix1/C:/Users/1/Desktop/pics/tankdead.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>970</x>
+     <y>640</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Level 2</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>830</x>
+     <y>640</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Level 1</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>970</x>
+     <y>600</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Shop</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>970</x>
+     <y>550</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Javelin (80)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>NLAW(60)</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>830</x>
+     <y>600</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Buy</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label2">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>630</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Health:</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>970</x>
+     <y>0</y>
+     <width>16</width>
+     <height>651</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+color: rgb(255, 0, 4);</string>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <zorder>line</zorder>
+  <zorder>DestroyedRocket2</zorder>
+  <zorder>DestroyedRocket3</zorder>
+  <zorder>DestroyedRocket4</zorder>
+  <zorder>DestroyedRocket5</zorder>
+  <zorder>DestroyedTank4</zorder>
+  <zorder>DestroyedTank3</zorder>
+  <zorder>DestroyedTank5</zorder>
+  <zorder>DestroyedTank0</zorder>
+  <zorder>DestroyedTank1</zorder>
+  <zorder>Rocket1</zorder>
+  <zorder>Rocket0</zorder>
+  <zorder>DestroyedRocket0</zorder>
+  <zorder>DestroyedRocket1</zorder>
+  <zorder>label</zorder>
+  <zorder>Tank2</zorder>
+  <zorder>Tank3</zorder>
+  <zorder>Tank0</zorder>
+  <zorder>Tank1</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>pushButton_2</zorder>
+  <zorder>DestroyedTank2</zorder>
+  <zorder>pushButton_3</zorder>
+  <zorder>comboBox</zorder>
+  <zorder>pushButton_4</zorder>
+  <zorder>label2</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
